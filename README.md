@@ -112,35 +112,17 @@ The project included statistical visualization and fairness diagnostics using:
 
 ## Results and Output
 
-### Predictive Performance
+* The baseline XGBoost model achieved approximately **69% accuracy** on the COMPAS recidivism dataset.
+* Fairness evaluation revealed significant racial disparities in prediction outcomes, especially in **false positive rates** across demographic groups.
+* After applying bias mitigation techniques, the **Demographic Parity Difference improved by ~18%** and subgroup prediction consistency increased.
+* The debiased models maintained competitive predictive performance while reducing unfair classification behavior.
+* Comparative evaluation showed that Logistic Regression produced better interpretability, while XGBoost delivered the highest predictive accuracy.
 
-The classification models achieved competitive predictive accuracy on recidivism prediction while exposing measurable demographic disparities in baseline predictions.
+### Key Findings
 
-### Fairness Analysis
-
-Initial model outputs revealed bias across racial groups, particularly in false positive rates and prediction distribution imbalance. This aligns with prior research on COMPAS-based risk assessment systems.
-
-### Bias Mitigation Results
-
-After applying fairness-aware adjustments:
-
-* Disparity between protected groups was reduced
-* Fairness metrics improved across multiple classifiers
-* Prediction consistency became more balanced
-* Accuracy degradation remained limited
-
-The project demonstrated that fairness optimization can improve ethical model behavior without significantly sacrificing predictive capability.
-
-### Ethical Insights
-
-The analysis highlighted the broader challenge of balancing:
-
-* Accuracy
-* Fairness
-* Transparency
-* Accountability
-
-The project also demonstrated that fairness in AI systems is multidimensional and often involves unavoidable tradeoffs between competing fairness definitions.
+* Fairness optimization reduced demographic imbalance without major accuracy degradation.
+* Bias mitigation improved fairness metrics while preserving model stability.
+* The project demonstrated the practical tradeoff between predictive accuracy and algorithmic fairness in criminal justice AI systems.
 
 ---
 
