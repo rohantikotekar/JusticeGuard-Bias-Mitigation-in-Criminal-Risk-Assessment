@@ -1,4 +1,4 @@
-# FairLens: Transparent Income Prediction with Locally Interpretable Model-Agnostic Explanantions
+# FairLens: Locally Interpretable Model-Agnostic Explanantions for Income Predictions
 ---
 
 ## Problem
